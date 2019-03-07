@@ -1,0 +1,117 @@
+
+h1{
+    font-size: 22pt;
+    color: #4aaaa5;
+}
+
+h2{
+    font-size: 18pt
+}
+
+h3{
+    font-size: 14pt
+}
+
+p, form{
+    font-size: 12pt;
+    line-height: 16pt;
+}
+
+body {
+    color:#777777;
+    border: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/white-waves.png");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: white
+}
+
+
+footer {
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-style: solid; 
+    border-width: 10px 0px 0px 0px;
+    border-color: #4aaaa5;
+    position: fixed;
+    bottom: 0px;
+    width:100%;
+}
+
+
+.container{
+    width:80%;
+    height:100%;
+    background-color: white;
+}
+
+
+.portfolio_card_container{
+    padding: 20px;
+}
+
+
+.card_display{
+    width: 30%;
+    height:100%;
+    border: solid;
+    padding: 15px;
+    margin: 15px;
+    float:left;
+    margin-bottom:120px;
+}
+
+
+
+.responsive_image{
+    max-width: 100%; 
+    height:auto;
+    display: block;
+    padding:5px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#header_name{
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#header_link_contact{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float:right;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center
+}
+
+#header_link_portfolio{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float:right;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center
+}
+
+#header_link_index{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float:right;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center
+}
+
+#about_image{
+    float:left;
+    width:150px;
+    height:auto;
+    margin:20px;
+}
+
