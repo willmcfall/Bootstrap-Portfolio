@@ -52,11 +52,6 @@ footer {
 }
 
 
-.portfolio_card_container{
-    padding: 20px;
-}
-
-
 .card_display{
     width: 30%;
     height:100%;
@@ -66,7 +61,6 @@ footer {
     float:left;
     margin-bottom:120px;
 }
-
 
 
 .responsive_image{
