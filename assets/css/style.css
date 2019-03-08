@@ -1,18 +1,21 @@
 
 h1{
     font-size: 22pt;
+    line-height: 26pt;
     color: #4aaaa5;
 }
 
 h2{
-    font-size: 18pt
+    font-size: 18pt;
+    line-height: 22pt;
 }
 
 h3{
-    font-size: 14pt
+    font-size: 14pt;
+    line-height: 18pt;
 }
 
-p, form{
+p{
     font-size: 12pt;
     line-height: 16pt;
 }
@@ -27,30 +30,33 @@ body {
 }
 
 header {
-    background-color: white
+    background-color: white;    
 }
-
 
 footer {
     background-color: #666666;
     color: white;
     text-align: center;
-    padding: 5px;
     border-style: solid; 
-    border-width: 10px 0px 0px 0px;
+    border-width: 5px 0px 0px 0px;
     border-color: #4aaaa5;
-    position: fixed;
-    bottom: 0px;
     width:100%;
+    padding:10px 0px 0px 0px;
+    position: fixed;
+    bottom: 0;
+    left:0;
 }
 
 
-.container{
+.header_container{
     width:80%;
-    height:100%;
-    background-color: white;
+    margin:auto;
 }
 
+.body_container {
+    background-color:white;
+    padding: 0px 0px 40px 0px;
+}
 
 .card_display{
     width: 30%;
@@ -62,9 +68,12 @@ footer {
     margin-bottom:120px;
 }
 
-
 .card_text{
     font-size:12vw;;
+}
+
+.form-group{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .responsive_image{
@@ -80,30 +89,36 @@ footer {
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
+    font-size: 22pt;
+    padding: 10px;
+    margin-bottom:0px;
 }
 
 #header_link_contact{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    float:right;
     margin-left: 20px;
     margin-right: 20px;
-    text-align: center
+    text-align: center;
+    margin-bottom:auto;
+    margin-top:15px;
 }
 
 #header_link_portfolio{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    float:right;
     margin-left: 20px;
     margin-right: 20px;
-    text-align: center
+    text-align: center;
+    margin-bottom:auto;
+    margin-top:15px;
 }
 
 #header_link_index{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    float:right;
     margin-left: 20px;
     margin-right: 20px;
-    text-align: center
+    text-align: center;
+    margin-bottom:auto;
+    margin-top:15px;
 }
 
 #about_image{
