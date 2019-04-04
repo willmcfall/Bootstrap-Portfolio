@@ -1,32 +1,27 @@
-
 h1{
-    font-size: 22pt;
-    line-height: 26pt;
+    font-size: 26pt;
     color: #4aaaa5;
 }
 
 h2{
-    font-size: 18pt;
-    line-height: 22pt;
+    font-size: 20pt;
 }
 
 h3{
-    font-size: 14pt;
-    line-height: 18pt;
+    font-size: 16pt;
 }
 
 p{
-    font-size: 12pt;
-    line-height: 16pt;
+    font-size: 10pt;
 }
 
 body {
     color:#777777;
     border: #cccccc;
-    font-family: Arial, Helvetica, sans-serif;
     background-image: url("../images/white-waves.png");
     background-repeat: repeat;
     background-size: cover;
+    font-family: 'Raleway', sans-serif;
 }
 
 header {
@@ -60,10 +55,10 @@ footer {
 }
 
 .card_display{
-    width: 30%;
+    width: 300px;
     height: 600px;
     border: solid;
-    padding: 15px;
+    padding: 20px;
     margin: 10px;
     float:left;
     margin-bottom:120px;
@@ -74,11 +69,10 @@ footer {
 }
 
 .form-group{
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .responsive_image{
-    max-width: 100%; 
+    max-width: 250px; 
     height:auto;
     display: block;
     padding:5px;
@@ -88,7 +82,6 @@ footer {
 
 #header_name{
     background-color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     font-size: 22pt;
     padding: 10px;
@@ -96,7 +89,6 @@ footer {
 }
 
 #header_link_contact{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
@@ -105,7 +97,6 @@ footer {
 }
 
 #header_link_portfolio{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
@@ -114,7 +105,6 @@ footer {
 }
 
 #header_link_index{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
